@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="banner" id="banner">
+        <div class="navigator" id="navi">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logo.svg" alt="">
+                </a>
+            </div>
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                  <ul>
+                    <li><a href="index.html">Início</a></li>
+                  </ul>
+                </nav> 
+            </div>
+                  
+                  <div class="menu-bg" id="menu-bg"></div>
+        </div>
+    </div>
+    <!-- Formulário -->
+    <section class="texto">
+        <div class="textbox">
+            <h2 style="text-align: center;">Faça sua Reserva</h2>
+            <form action="" >
+                <div class="inputtxt" id="formreservas">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+            
+                    <label for="mail">E-mail</label>
+                    <input type="mail" name="mail" id="mail">
+            
+                    <label for="cel">Celular</label>
+                    <input type="tel" name="cel" id="cel">
+
+                    <label for="select">Selecione sua Experiência</label>
+                    <select id="select">
+                        <option value="">Alquimia Vegana</option>
+                        <option value="">Sabor em ebulição</option>
+                        <option value="">Mushroom House</option>
+                        <option value="">Frutologia</option>
+                    </select>
+            
+                    <label for="data">Data</label>
+                    <input type="date" name="data" id="data">
+
+                    <input type="button" value="Enviar">
+                </div>
+            </form>
+        </div>
+        <div class="imgbox2" >
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <div class="txtfooter">
+            <div class="txtlusty">
+                Powered by
+            </div>
+            <div class="footerlusty"></div>
+        </div>
+        <div class="txtfooter">
+            <p><i class="fa-solid fa-location-dot"></i> Rua Guaipá 678, São Paulo, SP, 05089-001</p>
+            <p><i class="fa-solid fa-phone"></i> (11) 3834-4111</p>
+        </div>
+        <div class="txtfooter">
+            <ul class="redes">
+                <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href=""><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/ab9a626323.js" crossorigin="anonymous"></script>
+    <script src="assets/function.js"></script>
+</body>
+</html>
